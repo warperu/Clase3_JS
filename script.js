@@ -200,3 +200,21 @@ if (isNaN(cantidadEstudiantes) || cantidadEstudiantes <= 0 || isNaN(cantidadCali
         console.log(`Estudiante ${index + 1}: Calificaciones = [${estudiante.calificaciones.join(", ")}], Promedio = ${estudiante.promedio.toFixed(2)}, Estado = ${estudiante.estado}`);
     });
 }
+
+
+//FUNCIONES EN JS
+/*
+Sintaxis
+*/
+
+function nombreFuncion(param1, param2) {
+    // Cuerpo de la función
+    return resultado; 
+}
+
+
+function sumarNumeros (a, b) {
+    return a + b;
+}
+
+console.log(sumarNumeros(5, 10)); //Salida: 15
